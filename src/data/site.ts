@@ -1,3 +1,6 @@
+import profileImage from "./profileimage.png";
+import notaryImage from "./image1.png";
+
 export const siteConfig = {
   name: "K. A. KANERIYA & ASSOCIATES",
   tagline: "Best Legal Services in Town",
@@ -30,12 +33,12 @@ export const contactInfo = {
 
 export const images = {
   hero: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1920&q=80",
-  trusted: "https://images.unsplash.com/photo-1521791055366-0d0d14772476?w=1200&q=80",
+  trusted: profileImage,
   matters: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
   family: "https://images.unsplash.com/photo-1511895426328-dc8714191300?w=800&q=80",
   revenue: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80",
-  notary: "https://images.unsplash.com/photo-1507679744083-6ea83493f70f?w=800&q=80",
-  section138: "https://images.unsplash.com/photo-1554224315-b1170ce45306?w=800&q=80",
+  notary: notaryImage,
+  section138: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
   office: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=80",
 };
 
@@ -46,7 +49,7 @@ export const aboutSections = [
     description:
       "We have had the privilege of working with a diverse range of clients, including individuals, small businesses, and large corporations across various industries. We ensure we are always available to meet our clients' needs and concerns, reinforcing their confidence in our expertise and dedication.",
     image: images.trusted,
-    imageAlt: "Law library with legal books representing trusted expertise",
+    imageAlt: "Adv. Kaushik Kaneriya at the firm office",
   },
   {
     id: "matters",
